@@ -1,0 +1,45 @@
+.area {
+  text-align: center;
+}
+
+.status {
+  border: 2px solid blue;
+}
+
+.winner {
+  border: 2px solid green;
+}
+
+.status,
+.winner {
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.reset-button {
+  padding: 10px 30px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: red;
+  margin: 20px 0;
+}
+
+.board {
+  display: grid;
+  gap: 1px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.board button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: blue;
+  padding: 20px;
+  font-size: 20px;
+}
