@@ -1,6 +1,6 @@
 <div class="area">
-  <div id="statusArea" className="status" class="status">
-    Next player: <span>{{ currentPlayer }}</span>
+  <div class="status">
+    Próximo jogador: <span>{{ currentPlayer }}</span>
   </div>
 
   <section class="board">
@@ -18,8 +18,8 @@
   </section>
 
   <div id="winnerArea" className="winner" class="winner">
-    Winner: <span>{{ winner || "No winner" }}</span>
+    Vencedor: <span>{{ winner || "Sem vencedor" }}</span>
   </div>
 
-  <button (click)="reset()" class="reset-button">Reset</button>
+  <button (click)="reset()" class="reset-button">Reiniciar jogo</button>
 </div>
